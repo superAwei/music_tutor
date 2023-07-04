@@ -8,11 +8,29 @@
   </head>
   <body>
     <%- include('./layout/header'); -%>
+    <!-- banner -->
+    <div class="container">
+      <section class="row d-flex justify-content-between align-items-center">
+        <div class="col-5">
+          <h2>開啟您的樂章</h2>
+          <p>音樂之旅，與我們一同起航。歡迎來到我們的音樂家教媒合平台，一個獨特的學習社區。在這裡，與熱愛音樂的導師相遇，將你的音樂激情傾注其中。</p>
+          <button class="btn btn-primary">搜尋課程</button>
+        </div>
+        <div class="col-5">
+           <img class="banner" src="/assets/images/musical/musical-5.png" alt="">
+        </div>
+      </section>
 
-    <h1 class="index-title">我是首頁</h1>
-    <div class="box"></div>
-    <img src="../assets/images/cat.jpg" style="width: 300px;" alt="cat">
-
+      <!-- 精選課程 -->
+      <div class="row ">
+        <h2 class="col-12 text-center subtitle w-100">
+          <span class="fs-2 txt_castoro d-block">class</span>
+          <span class="fs-3">多元課程</span>
+        </h2>
+        <img class="col-8 musical-3" src="/assets/images/decorate/photo-1.jpg"></img>
+        <div class="col-4">BBB</div>
+      </div>
+    </div>
     <%- include('./layout/footer'); -%>
 
     <script type="module" src="../main.js"></script>
