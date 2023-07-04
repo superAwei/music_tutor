@@ -1,6 +1,11 @@
 @import 'bootstrap/scss/bootstrap';
 @import './layout/header.scss';
 @import './layout/footer.scss';
-
-
 @import './pages/index.scss';
+// 新增這一頁的 css
+@import './pages/contact.scss';
+
+//全站的一些標籤樣式清除
+ul{
+    list-style-type: none;
+}
