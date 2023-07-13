@@ -1,5 +1,6 @@
-@import 'bootstrap/scss/bootstrap';
-// 客製化 bootstrap 樣式
+
+// 客製化 bootstrap 樣式，必須引入 functions 這隻檔案還有從 node_modules 複製的 variables
+@import '../../node_modules/bootstrap/scss/functions';
 @import './layout/variables';
 // 全站的樣式設定
 @import './layout/base.scss';
@@ -10,4 +11,8 @@
 @import './pages/index.scss';
 // 新增這一頁的 css
 @import './pages/contact.scss';
+@import './pages/login.scss';
 
+
+// 這個 bootstrap 放在最後面
+@import '../../node_modules/bootstrap';

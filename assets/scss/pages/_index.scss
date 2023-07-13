@@ -1,10 +1,16 @@
+.banner-wrap{
+  padding-top:60px;
+  padding-bottom: 60px;
+}
+
 .banner{
-  width: 300px;
+  width: 400px;
 }
 
 .subtitle{
   position: relative;
   display: block;
+  max-width: 480px !important;
   margin-inline: auto;
   font-size: 2.5rem;
   line-height: 1;
@@ -12,8 +18,4 @@
   padding-block: 45px;
   text-align: center;
   background: url('/assets/images/decorate/section_title-line.png') top repeat-x,url('/assets/images/decorate/section_title-line.png') bottom repeat-x;
-}
-
-.musical-3{
-  width: 50%;
 }
